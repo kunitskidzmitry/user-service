@@ -19,4 +19,4 @@ app.listen(PORT, () => {
   console.log(`🚀 Server is running on http://localhost:${PORT}`);
 });
 
-app.use('/auth', authRoutes);
+app.use('/api', authRoutes);
