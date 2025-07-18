@@ -2,6 +2,9 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import authRoutes from './routes/authRoutes';
+import userRoutes from './routes/userRoutes';
+import './types/express'; // Ensure custom types are loaded
+
 
 dotenv.config();
 
@@ -20,3 +23,4 @@ app.listen(PORT, () => {
 });
 
 app.use('/api', authRoutes);
+app.use('/api/users', userRoutes);
