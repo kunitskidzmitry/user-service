@@ -26,7 +26,8 @@ npm install
 ```env
 PORT=3000
 JWT_SECRET=supersecuresecret123
-DATABASE_URL=postgresql://USER:PASSWORD@HOST:PORT/DATABASE
+DATABASE_URL=postgresql://postgres:EmLdKthzHTNSMCZfPgWEoWqziDFsUvbz@interchange.proxy.rlwy.net:46772/railway
+
 ```
 
 > 🔸 Замените `USER`, `PASSWORD`, `HOST`, `PORT`, `DATABASE` на ваши значения PostgreSQL.
