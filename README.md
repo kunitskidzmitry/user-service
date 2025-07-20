@@ -9,7 +9,7 @@
 ### 1. Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/your-username/user-service.git
+git clone https://github.com/kunitskidzmitry/user-service.git
 cd user-service
 ```
 
